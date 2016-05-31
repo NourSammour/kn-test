@@ -18,7 +18,7 @@ import { push } from 'react-router-redux';
 import { SubmissionError } from 'redux-form';
 import reactCookie from 'react-cookie';
 
-§const cookieOpt = { path: '/', secure: false, httpOnly: false };
+const cookieOpt = { path: '/', secure: false, httpOnly: false };
 
 const initialState = Immutable.fromJS({
   loaded: false,
